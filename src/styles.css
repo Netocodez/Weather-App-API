@@ -1,0 +1,88 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* App container */
+.App {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  color: #fff;
+}
+
+/* Title */
+.App h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Input */
+.App input {
+  padding: 12px;
+  width: 70%;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Button */
+.App button {
+  padding: 12px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #0072ff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.App button:hover {
+  background: #00c6ff;
+}
+
+/* Weather card */
+.App div {
+  margin-top: 20px;
+  padding: 20px;
+  background: #0072ff;
+  border-radius: 15px;
+  color: #fff;
+  text-align: left;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Weather details */
+.App h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.App p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+/* Error message */
+.App p[style] {
+  color: #ff4b5c !important;
+  font-weight: bold;
+}
