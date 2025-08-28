@@ -57,15 +57,6 @@ weather-app/
 4. Run the development server
     npm start
 
-## Project Structure
-
-weather-app/
-│── src/
-│   ├── App.tsx          # Main React
-│   ├── styles.css      # Styling
-│   └── index.js        # App entry point│
-│── package.json        # Dependencies & scripts
-│── README.md           # Documentation
 ## Usage
 
 Enter a city name in the input box
